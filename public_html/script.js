@@ -7,7 +7,6 @@
     
     
    var el=document.getElementsByTagName("button");
-    alert(el[1].innerHTML.toString());
    for(var i=0,len=el.length;i<len;i=i+1){
        el[i].onclick=function (){
          var className=this.innerHTML.toString()  ;
