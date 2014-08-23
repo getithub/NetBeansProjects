@@ -11,6 +11,7 @@
        el[i].onclick=function (){
          var className=this.innerHTML.toString()  ;
          document.body.className=className;
+         alert("Hi");
        };
    }
 }());
